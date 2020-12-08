@@ -11,12 +11,16 @@
       rgba($primary-color, 0.9),
       rgba($primary-color, 0.3)
     ),
-    url('../img/model-1.jpg') center top;
+    url('../img/42.png') center top;
   background-size: cover;
 
   h2 {
     font-size: 3rem;
     margin-bottom: 2rem;
+  }
+
+  &__phone, &__email {
+    text-align: center;
   }
 
   &__list {

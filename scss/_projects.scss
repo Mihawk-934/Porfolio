@@ -10,7 +10,7 @@
         rgba($primary-color, 0.9),
         rgba($primary-color, 0.3)
       ),
-      url('../img/model-1.jpg') center top;
+      url('../img/42.png') center top;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -38,6 +38,7 @@
     cursor: pointer;
 
     img {
+      height: 200px;
       width: 100%;
     }
 
@@ -71,7 +72,7 @@
     width: 100%;
     z-index: 1;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     align-items: center;
     text-align: center;
   }
